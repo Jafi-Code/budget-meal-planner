@@ -1,0 +1,190 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Chakalaka & Pap",
+      "ingredients": [
+        "2 cups maize meal",
+        "1 onion, chopped",
+        "2 carrots, grated",
+        "1 can baked beans",
+        "1 green pepper, chopped",
+        "2 tsp curry powder",
+        "2 tbsp oil",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Cook pap with water and salt until stiff.",
+        "Fry onion, pepper, and carrots in oil. Add curry powder.",
+        "Stir in baked beans. Simmer for 5 minutes.",
+        "Serve hot with pap."
+      ],
+      "cost_per_serving": 15
+    },
+    {
+      "id": 2,
+      "name": "Bobotie (Budget Version)",
+      "ingredients": [
+        "500g mince or lentils",
+        "1 onion, chopped",
+        "2 slices bread (soaked in milk)",
+        "1 tbsp curry powder",
+        "2 tbsp chutney or apricot jam",
+        "2 eggs"
+      ],
+      "steps": [
+        "Fry onion, add mince and curry powder.",
+        "Mix in soaked bread and chutney.",
+        "Place mixture in oven dish.",
+        "Beat eggs, pour over top.",
+        "Bake 30 mins at 180°C."
+      ],
+      "cost_per_serving": 22
+    },
+    {
+      "id": 3,
+      "name": "Vetkoek with Mince",
+      "ingredients": [
+        "4 cups flour",
+        "2 tsp yeast",
+        "1 tsp sugar",
+        "1 tsp salt",
+        "500g mince or beans"
+      ],
+      "steps": [
+        "Mix dough ingredients, let rise 1 hour.",
+        "Deep fry small dough balls until golden.",
+        "Fry mince with onion and spices.",
+        "Fill vetkoek with mince mixture."
+      ],
+      "cost_per_serving": 15
+    },
+    {
+      "id": 4,
+      "name": "Samp & Beans (Umngqusho)",
+      "ingredients": [
+        "2 cups samp",
+        "2 cups sugar beans",
+        "1 onion, chopped",
+        "1 stock cube",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Soak samp and beans overnight.",
+        "Boil until soft (2–3 hrs).",
+        "Fry onion, add to samp and beans.",
+        "Season with stock and salt."
+      ],
+      "cost_per_serving": 12
+    },
+    {
+      "id": 5,
+      "name": "Bunny Chow",
+      "ingredients": [
+        "Half loaf of bread, hollowed",
+        "500g chicken or beans",
+        "2 tomatoes, chopped",
+        "1 onion, chopped",
+        "2 tsp curry powder",
+        "2 cloves garlic, minced"
+      ],
+      "steps": [
+        "Fry onion and garlic, add curry powder.",
+        "Add chicken/beans and tomatoes.",
+        "Simmer until cooked.",
+        "Fill hollow bread with curry mixture."
+      ],
+      "cost_per_serving": 20
+    },
+    {
+      "id": 6,
+      "name": "Frikkadelle (Meatballs)",
+      "ingredients": [
+        "500g mince",
+        "1 egg",
+        "2 slices bread, soaked",
+        "1 onion, chopped",
+        "Salt and pepper"
+      ],
+      "steps": [
+        "Mix all ingredients in a bowl.",
+        "Shape into balls.",
+        "Fry until golden brown.",
+        "Serve with pap or rice."
+      ],
+      "cost_per_serving": 18
+    },
+    {
+      "id": 7,
+      "name": "Malva Pudding",
+      "ingredients": [
+        "1 cup flour",
+        "1 cup sugar",
+        "1 egg",
+        "1 tbsp apricot jam",
+        "1 cup milk"
+      ],
+      "steps": [
+        "Mix all ingredients into batter.",
+        "Pour into greased dish.",
+        "Bake at 180°C for 40 minutes.",
+        "Serve with custard or milk."
+      ],
+      "cost_per_serving": 12
+    },
+    {
+      "id": 8,
+      "name": "Potjiekos (One-Pot Stew)",
+      "ingredients": [
+        "500g chicken or beef",
+        "3 potatoes, chopped",
+        "3 carrots, chopped",
+        "1 onion, chopped",
+        "1 stock cube",
+        "Salt and pepper"
+      ],
+      "steps": [
+        "Brown meat and onions.",
+        "Layer vegetables in pot.",
+        "Add water and stock cube.",
+        "Simmer until tender (1–2 hrs)."
+      ],
+      "cost_per_serving": 20
+    },
+    {
+      "id": 9,
+      "name": "Boerewors & Pap",
+      "ingredients": [
+        "500g boerewors",
+        "2 cups maize meal",
+        "2 tomatoes",
+        "1 onion, chopped"
+      ],
+      "steps": [
+        "Cook pap until stiff.",
+        "Braai or pan-fry boerewors.",
+        "Fry onion and tomatoes into a relish.",
+        "Serve together."
+      ],
+      "cost_per_serving": 22
+    },
+    {
+      "id": 10,
+      "name": "Koeksisters",
+      "ingredients": [
+        "2 cups flour",
+        "1 egg",
+        "2 tsp baking powder",
+        "Oil for frying",
+        "1 cup sugar syrup"
+      ],
+      "steps": [
+        "Mix dough, shape into plaits.",
+        "Deep fry until golden.",
+        "Dip into cold sugar syrup.",
+        "Cool before serving."
+      ],
+      "cost_per_serving": 10
+    }
+  ]
+}

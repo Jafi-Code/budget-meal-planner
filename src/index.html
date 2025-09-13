@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Meal Planner - Affordable South African Meals</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- New Header with combined titles -->
+        <header id="appHeader">
+            <h1 class="title">🍲 Budget Meal</h1>
+            <h1 class="title">Planner</h1>
+            <p class="subtitle">Affordable South African meals made simple</p>
+        </header>
+        
+        <main>
+            <!-- Step 1: Budget Input (initial screen) -->
+            <div id="step1-budget" class="step-section">
+                <div class="budget-input-container">
+                    <h2>Enter Your Budget</h2>
+                    <div class="input-group">
+                        <span class="currency-symbol">R</span>
+                        <input type="number" id="budget-input" placeholder="Amount" min="0">
+                        <button id="plan-button">Plan My Meals</button>
+                    </div>
+                </div>
+                <!-- Specials Section is always visible -->
+                <div id="specials">
+                    <h2>SAVE on Specials</h2>
+                    <a href="https://www.shoprite.co.za/specials" target="_blank"><img src="shoprite logo.png" alt="Shoprite Logo" style="height: 60px; vertical-align: middle;"></a>
+                    <a href="https://www.boxer.co.za/promotions#gsc.tab=0" target="_blank"><img src="boxer logo.jpg" alt="Boxer Logo" style="height: 60px; vertical-align: middle;"></a>
+                    <a href="https://www.pnp.co.za/c/pnpbase?query=:relevance:allCategories:pnpbase:isOnPromotion:On%20Promotion" target="_blank"><img src="pick n pay logo.jpg" alt="Pick n Pay Logo" style="height: 60px; vertical-align: middle;"></a>
+                </div>
+            </div>
+
+            <!-- Custom Alert/Message Box -->
+            <div id="message-box" class="hidden">
+                <p id="message-text"></p>
+                <button id="message-close-btn">OK</button>
+            </div>
+
+            <!-- Steps 2, 3, and 4 (initially hidden) -->
+            <div id="step2-duration" class="hidden step-section card"></div>
+            <div id="step3-recipes" class="hidden step-section card"></div>
+            <div id="step4-grocery" class="hidden step-section card"></div>
+        </main>
+
+        <!-- Step 5: Meal Schedule -->
+<section id="step5-schedule" class="hidden"></section>
+
+        
+        <!-- New Footer -->
+        <footer>
+            <p>Author: Mojalefa Mokgadi</p>
+        </footer>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
+
+
