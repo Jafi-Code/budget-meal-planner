@@ -186,7 +186,7 @@ function confirmDuration(choice) {
     showRecipeSelection();
 }
 
--
+
 // Step 3: Recipe selection
 function showRecipeSelection() {
     showSection("step3-recipes");
@@ -300,5 +300,6 @@ async function startApp() {
 
 // Start the application when the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", startApp);
+
 
 
